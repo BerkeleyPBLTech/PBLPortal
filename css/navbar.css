@@ -84,7 +84,7 @@ header{
 #open{
 	display: none;
 }
-img {
+img.favicon {
 	margin-right: 10px;
 	height: 27px;
 	width: 27px;
