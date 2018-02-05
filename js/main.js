@@ -10,7 +10,7 @@
 					["fri10", "fri11", "fri12", "fri1"]];
 
 	// list of days, then time slots per day, then people per time slot
-	var json = [
+	/*[
 					[
 						["Yusuf Yamani", "Eliot Hsu"], 
 						["Donna Ye", "David Pailet", "Zachary Osterland", "Sabrina Ni", "Random Person"],
@@ -35,7 +35,8 @@
 						["Copter Ruangrojanin", "Cyssi Ngo", "Kristy Kao", "Carrington Park"], 
 						["Sunbin Kim", "Nancy Chen", "Chloe Lin", "Howard Yin"],
 						["Arnold Chan", "Mikuto Murayama", "Roy Kamineni", "Josia Yuan"], 
-						["Brian Zeng", "Amy Lu", "Nathan Orwig"]]];
+						["Brian Zeng", "Amy Lu", "Nathan Orwig"]]] */
+	var json = [[["Sean Lee", "Stephanie Chen", "Eliot Hsu", "Yichu Chen"], ["Taylor Wang", "Jacqueline Zhang", "Samantha Sujo", "Michael Hsiu"], ["Hermes Ip", "Leona Chen", "Julian Tedja", "Ravi Siripuram"], ["Emeri Zhang", "Adam Liu", "Lily Zheng", "Shaylene Liao"]], [["Meejin Choi", "Bianca Al-Shamari", "Alex Park", "Annie Cui"], ["Linda Li", "Lorenzo dela Cruz", "Hyeonjo Jeong", "Anny Song"], ["Corey Gibbel", "Rafay Warsi", "Caroline Chen"], ["Sarah Shin", "Arina Yu", "Ozair Khan"]], [["Chloe Lin", "Jeffrey Li", "Nayada (Mint) Katevetin"], ["Nancy Chen", "William Kim", "Kan Liu"], ["Samantha Fang", "Kristina Lee", "Elliot Ryu"], ["Kira Guo", "Anastasia Vela", "Troy Lee", "Max Wang"]], [["Bob Feng", "Anthony Chen", "Jessica Dang"], ["Alexander Park", "Arnold Chan", "Claire Lee", "Austin Kim"], ["Carrington Park", "Elizabeth Pegg", "Megan Wang", "Shruti Maheshwari"], ["Sabrina Ni", "Eric Sung", "Rick Surya", "Rena Song"]], [["Tae Kim", "Kai Lun Chen"], ["Nicholas Paul", "Mi (Jackie) Hu"], ["Yusuf Yamani", "Janet Xu", "Nick Palmer"], ["Emily Jin", "Timothy Huang", "Alan Dai"]]];
 
 
 	$.each(json, function(i) { // loops through each day
