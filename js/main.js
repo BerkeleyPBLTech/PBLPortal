@@ -38,7 +38,7 @@
 	[["Eliot Hsu", "Shruti Maheshwari", "William Kim"], 
 	["Linda Li", "Nick Palmer", "Nicholas Paul", "Caroline Chen"], 
 	["Corey Gibbel", "Anny Song", "Julian Tedja", "Timothy Huang"], 
-	["Sarah Shin", "Leona Chen", "Nayada (Mint) Katevetin", "Alan Dai"]], 
+	["Sarah Shin", "Leona Chen", "Mint Katavetin", "Alan Dai"]], 
 	[["Chloe Lin", "Megan Wang"], 
 	["Carrington Park", "Lily Zheng", "Eric Sung", "Anastasia Vela"], 
 	["Samantha Fang", "Meejin Choi", "Arina Yu", "Shaylene Liao"], 
