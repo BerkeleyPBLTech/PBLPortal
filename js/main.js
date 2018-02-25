@@ -31,26 +31,7 @@
 	// 				["Bob Feng", "Kan Liu", "Jacqueline Zhang"], 
 	// 				["Nancy Chen", "Max Wang", "Ravi Siripuram"], 
 	// 				["Ozair Khan", "Caroline Chen", "Jeffrey Li", "Michael Hsiu"]]]
-	var json = [[["Alex Park AP", "Annie Cui", "Troy Lee"], 
-	["Austin Kim", "Max Wang", "Bianca Al-Shamari", "Kan Liu"], 
-	["Arnold Chan", "Taylor Wang", "Stephanie Chen", "Janet Xu"], 
-	["Emeri Zhang", "Kristina Lee"]], 
-	[["Eliot Hsu", "Shruti Maheshwari", "William Kim"], 
-	["Linda Li", "Nick Palmer", "Nicholas Paul", "Caroline Chen"], 
-	["Corey Gibbel", "Anny Song", "Julian Tedja", "Timothy Huang"], 
-	["Sarah Shin", "Leona Chen", "Mint Katavetin", "Alan Dai"]], 
-	[["Chloe Lin", "Megan Wang"], 
-	["Carrington Park", "Lily Zheng", "Eric Sung", "Anastasia Vela"], 
-	["Samantha Fang", "Meejin Choi", "Arina Yu", "Shaylene Liao"], 
-	["Kira Guo", "Adam Liu", "Sean Lee"]], 
-	[["Yusuf Yamani", "Anthony Chen", "Kai Lun Chen", "Alex Park"], 
-	["Hermes Ip", "Elizabeth Pegg", "Claire Lee", "Samantha Sujo"], 
-	["Tae Kim", "Rick Surya", "Jessica Dang", "Mi (Jackie) Hu"], 
-	["Rena Song", "Yichu Chen", "Michael Hsiu"]], 
-	[["Emily Jin", "Bob Feng"], 
-	["Nancy Chen", "Lorenzo dela Cruz"], 
-	["Ozair Khan", "Ravi Siripuram", "Rafay Warsi"], 
-	["Sabrina Ni", "Jacqueline Zhang", "Jeffrey Li", "Hyeonjo Jeong"]]]
+	var json = [[["Arnold Chan", "Jeffrey Li", "Troy Lee", "Annie Cui"], ["Austin Kim", "Kan Liu", "Taylor Wang"], ["Alex Park AP", "Tae Kim", "Meejin Choi"], ["Ozair Khan", "Adam Liu", "Max Wang"]], [["Bob Feng", "Nick Palmer"], ["Nicholas Paul", "Claire Lee", "Hyeonjo Jeong"], ["Hermes Ip", "Rafay Warsi", "Anny Song"], ["Rena Song", "Arina Yu", "Mint Katevetin", "Anthony Chen"]], [["Chloe Lin", "Alan Dai"], ["Corey Gibbel", "Alex Park", "Eric Sung", "William Kim"], ["Samantha Fang", "Stephanie Chen", "Samantha Sujo"], ["Sarah Shin", "Anastasia Vela", "Kristina Lee", "Emeri Zhang"]], [["Yusuf Yamani", "Bianca Al-Shamari", "Shruti Maheshwari"], ["Linda Li", "Elizabeth Pegg", "Shaylene Liao", "Leona Chen"], ["Carrington Park", "Timothy Huang", "Jackie Hu"], ["Kira Guo", "Rick Surya", "Megan Wang"]], [["Emily Jin", "Jessica Dang", "Ravi Siripuram"], ["Eliot Hsu", "Jacqueline Zhang", "Lorenzo dela Cruz"], ["Nancy Chen", "Janet Xu", "Kai Chen", "Michael Hsiu"], ["Sabrina Ni", "Lily Zheng", "Caroline Chen", "Julian Tedja"]]];
 
 
 	$.each(json, function(i) { // loops through each day
