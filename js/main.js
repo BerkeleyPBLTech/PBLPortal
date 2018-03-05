@@ -11,27 +11,26 @@
 
 	// list of days, then time slots per day, then people per time slot
 
-	// var json = [[["Eliot Hsu", "Nick Palmer"], 
-	// 				["Corey Gibbel", "Taylor Wang", "Mi (Jackie) Hu", "Bianca Al-Shamari"], 
-	// 				["Carrington Park", "Samantha Sujo", "Kristina Lee", "Sean Lee"], 
-	// 				["Adam Liu", "Elizabeth Pegg", "Tae Kim", "Hyeonjo Jeong"]], 
-	// 			[["Meejin Choi", "Anthony Chen", "Timothy Huang", "Yichu Chen"], 
-	// 				["Arnold Chan", "Megan Wang", "Linda Li"], 
-	// 				["Sarah Shin", "Anny Song", "Lily Zheng", "Leona Chen"], 
-	// 				["Alex Park AP", "Julian Tedja", "Rick Surya", "Yusuf Yamani"]], 
-	// 			[["Chloe Lin", "Stephanie Chen", "Alex Park"],
-	// 				["Austin Kim", "Lorenzo dela Cruz", "William Kim"], 
-	// 				["Emeri Zhang", "Samantha Fang", "Janet Xu", "Alan Dai"], 
-	// 				["Sabrina Ni", "Anastasia Vela"]], 
-	// 			[["Rena Song", "Annie Cui", "Rafay Warsi", "Kai Lun Chen"], 
-	// 				["Nicholas Paul", "Shaylene Liao", "Shruti Maheshwari", "Claire Lee"], 
-	// 				["Hermes Ip", "Jessica Dang"], 
-	// 				["Kira Guo", "Eric Sung", "Nayada (Mint) Katevetin"]],
-	// 			[["Emily Jin", "Troy Lee", "Arina Yu"], 
-	// 				["Bob Feng", "Kan Liu", "Jacqueline Zhang"], 
-	// 				["Nancy Chen", "Max Wang", "Ravi Siripuram"], 
-	// 				["Ozair Khan", "Caroline Chen", "Jeffrey Li", "Michael Hsiu"]]]
-	var json = [[["Arnold Chan", "Jeffrey Li", "Troy Lee", "Annie Cui"], ["Austin Kim", "Kan Liu", "Taylor Wang"], ["Alex Park AP", "Tae Kim", "Meejin Choi"], ["Ozair Khan", "Adam Liu", "Max Wang"]], [["Bob Feng", "Nick Palmer"], ["Nicholas Paul", "Claire Lee", "Hyeonjo Jeong"], ["Hermes Ip", "Rafay Warsi", "Anny Song"], ["Rena Song", "Arina Yu", "Mint Katevetin", "Anthony Chen"]], [["Chloe Lin", "Alan Dai"], ["Corey Gibbel", "Alex Park", "Eric Sung", "William Kim"], ["Samantha Fang", "Stephanie Chen", "Samantha Sujo"], ["Sarah Shin", "Anastasia Vela", "Kristina Lee", "Emeri Zhang"]], [["Yusuf Yamani", "Bianca Al-Shamari", "Shruti Maheshwari"], ["Linda Li", "Elizabeth Pegg", "Shaylene Liao", "Leona Chen"], ["Carrington Park", "Timothy Huang", "Jackie Hu"], ["Kira Guo", "Rick Surya", "Megan Wang"]], [["Emily Jin", "Jessica Dang", "Ravi Siripuram"], ["Eliot Hsu", "Jacqueline Zhang", "Lorenzo dela Cruz"], ["Nancy Chen", "Janet Xu", "Kai Chen", "Michael Hsiu"], ["Sabrina Ni", "Lily Zheng", "Caroline Chen", "Julian Tedja"]]];
+	var json = [[["Tae Kim", "Jeffrey Li", "Stephanie Chen"], 
+	["Carrington Park", "Alan Dai", "Kan Liu", "Max Wang"], 
+	["Kira Guo", "Taylor Wang", "Ozair Khan", "Meejin Choi"], 
+	["Emeri Zhang", "Hyeonjo Jeong"]], 
+	[["Bob Feng", "William Kim", "Bianca Al-Shamari"], 
+	["Nicholas Paul", "Claire Lee", "Lorenzo dela Cruz"], 
+	["Hermes Ip", "Rick Surya", "Anny Song", "Shruti Maheshwari"], 
+	["Rena Song", "Caroline Chen"]], 
+	[["Chloe Lin", "Nick Palmer"], 
+	["Austin Kim", "Alex Park", "Samantha Sujo", "Mint Katevetin"], 
+	["Samantha Fang", "Eric Sung", "Michael Hsiu", "Rafay Warsi"], 
+	["Emily Jin", "Adam Liu", "Kristina Lee", "Julian Tedja"]], 
+	[["Yusuf Yamani", "Timothy Huang"], 
+	["Linda Li", "Elizabeth Pegg", "Shaylene Liao"], 
+	["Alex Park AP", "Leona Chen", "Jackie Hu"], 
+	["Sarah Shin", "Anthony Chen", "Megan Wang"]], 
+	[["Eliot Hsu", "Arina Yu", "Ravi Siripuram", "Troy Lee"], 
+	["Nancy Chen", "Anastasia Vela", "Jacqueline Zhang"], 
+	["Corey Gibbel", "Kai Chen", "Arnold Chan", "Janet Xu"], 
+	["Sabrina Ni", "Lily Zheng", "Jessica Dang", "Annie Cui"]]];
 
 
 	$.each(json, function(i) { // loops through each day
