@@ -24,7 +24,7 @@
 	["Samantha Fang", "Eric Sung", "Kai Chen", "Ravi Siripuram"], 
 	["Emeri Zhang", "Troy Lee", "Julian Tedja"]], 
 	[["Yusuf Yamani", "Rafay Warsi", "Bianca Alshamari", "Elizabeth Pegg"], 
-	["Linda Li", "Claire Me", "Ozair Khan"], 
+	["Linda Li", "Claire Lee", "Ozair Khan"], 
 	["Carrington Park", "Jackie Hu"],
 	 ["Rena Song", "Megan Wang", "Mint Katavetin"]], 
 	 [["Emily Jin", "Michael Hsiu", "Jessica Dang"], 
