@@ -11,26 +11,7 @@
 
 	// list of days, then time slots per day, then people per time slot
 
-	var json = [[["Sabrina Ni", "Alan Dai", "Arina Yu"], 
-	["Corey Gibbel", "Kira Guo", "Kan Liu", "Samantha Sujo"], 
-	["Taylor Wang", "Janet Xu", "Annie Cui", "Stephanie Chen"], 
-	["Sarah Shin", "Hyeonjo Jeong", "Caroline Chen", "Adam Liu"]], 
-	[["Eliot hsu", "Alex Park"], 
-	["Hermes Ip", "Nicholas Paul", "Kristina Lee", "Shaylene Liao"], 
-	["Alex Park AP", "Anny Song", "Shruti Maheshwari"], 
-	["Chloe Lin", "Anthony Chen", "Leona Chen", "Rick Surya"]], 
-	[["Bob Feng", "Jeffrey Li", "William Kim", "Nick Palmer"], 
-	["Austin Kim", "Lily Zheng"], 
-	["Samantha Fang", "Eric Sung", "Kai Chen", "Ravi Siripuram"], 
-	["Emeri Zhang", "Troy Lee", "Julian Tedja"]], 
-	[["Yusuf Yamani", "Rafay Warsi", "Bianca Alshamari", "Elizabeth Pegg"], 
-	["Linda Li", "Claire Lee", "Ozair Khan"], 
-	["Carrington Park", "Jackie Hu"],
-	 ["Rena Song", "Megan Wang", "Mint Katavetin"]], 
-	 [["Emily Jin", "Michael Hsiu", "Jessica Dang"], 
-	 ["Nancy Chen", "Lorenzo dela Cruz"], 
-	 ["Arnold Chan", "Anastasia Vela", "Meejin Choi"], 
-	 ["Tae Kim", "Timothy Huang", "Jacqueline Zhang", "Max Wang"]]]
+	var json = [[["Taylor Wang", "Jeffrey Li", "Nick Palmer", "Alan Dai"], ["Chloe Lin", "Samantha Sujo", "Bianca Al-Shamari"], ["Kira Guo", "Janet Xu", "Julian Tedja", "Stephanie Chen"], ["Emeri Zhang", "Adam Liu", "Caroline Chen", "Kai Chen"]], [["Bob Feng", "William Kim", "Annie Cui"], ["Nicholas Paul", "Shaylene Liao", "Kristina Lee", "Jessica Dang"], ["Alex Park AP", "Ozair Khan", "Anny Song", "Lily Zheng"], ["Yusuf Yamani", "Jacqueline Zhang", "Mint Katevetin"]], [["Eliot Hsu", "Michael Hsiu"], ["Carrington Park", "Alex Park", "Lorenzo dela Cruz"], ["Corey Gibbel", "Samantha Fang", "Nancy Chen", "Eric Sung"], ["Emily Jin", "Hyeonjo Jeong", "Anastasia Vela"]], [["Meejin Choi", "Rafay Warsi", "Elizabeth Pegg", "Ravi Siripuram"], ["Hermes Ip", "Claire Lee", "Linda Li"], ["Rena Song", "Leona Chen", "Troy Lee", "Megan Wang"], ["Sabrina Ni", "Shruti Maheshwari", "Anthony Chen"]], [["Tae Kim", "Arina Yu"], ["Austin Kim", "Kan Liu", "Jackie Hu"], ["Arnold Chan", "Timothy Huang"], ["Sarah Shin", "Rick Surya", "Max Wang"]]];
 
 
 	$.each(json, function(i) { // loops through each day
