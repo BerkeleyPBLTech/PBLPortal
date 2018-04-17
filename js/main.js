@@ -11,7 +11,26 @@
 
 	// list of days, then time slots per day, then people per time slot
 
-	var json = [[["Taylor Wang", "Troy Lee"], ["Chloe Lin", "Jackie Hu"], ["Kira Guo", "Samantha Sujo", "Rafay Warsi", "Shaylene Liao"], ["Sarah Shin", "Adam Liu", "Nick Palmer"]], [["Bob Feng", "Alex Park", "Meejin Choi"], ["Linda Li", "Kristina Lee", "Claire Lee", "Ozair Khan"], ["Corey Gibbel", "Rick Surya", "Anny Song"], ["Rena Song", "Anthony Chen", "Alan Dai", "Julian Tedja"]], [["Emily Jin", "William Kim", "Stephanie Chen"], ["Hermes Ip", "Lily Zheng", "Lorenzo dela Cruz", "Jacqueline Zhang"], ["Nancy Chen", "Samantha Fang", "Arnold Chan"], ["Emeri Zhang", "Timothy Huang", "Max Wang"]], [["Yusuf Yamani", "Elizabeth Pegg", "Bianca Al-Shamari"], ["Carrington Park", "Caroline Chen", "Leona Chen", "Hyeonjo Jeong"], ["Alex Park AP", "Eric Sung", "Shruti Maheshwari", "Ravi Siripuram"], ["Sabrina Ni", "Kai Chen", "Mint Katevetin", "Megan Wang"]], [["Eliot Hsu", "Jessica Dang"], ["Austin Kim", "Anastasia Vela", "Kan Liu"], ["Nicholas Paul", "Jeffrey Li", "Janet Xu", "Arina Yu"], ["Tae Kim", "Annie Cui", "Michael Hsiu"]]];
+	var json = [[["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"]],
+	[["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"]],
+	[["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"]],
+	[["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"]],
+	[["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"],
+	["Meejin Choi", "Meejin Choi", "Meejin Choi", "Meejin Choi"]]];
 
 	$.each(json, function(i) { // loops through each day
 		$.each(this, function(j) { // loops through each time slot in each day
